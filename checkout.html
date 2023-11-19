@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Boutique | Ecommerce bootstrap template</title>
+    <title>Indovel | Tempat Jual Beli Novel</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -30,7 +30,7 @@
       <!-- navbar-->
       <header class="header bg-white">
         <div class="container px-lg-3">
-          <nav class="navbar navbar-expand-lg navbar-light py-3 px-lg-0"><a class="navbar-brand" href="index.html"><span class="fw-bold text-uppercase text-dark">Boutique</span></a>
+          <nav class="navbar navbar-expand-lg navbar-light py-3 px-lg-0"><a class="navbar-brand" href="index.html"><span class="fw-bold text-uppercase text-danger">Indo<span class="text-dark">vel</span></span></a>
             <button class="navbar-toggler navbar-toggler-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto">
@@ -117,112 +117,47 @@
         </section>
         <section class="py-5">
           <!-- BILLING ADDRESS-->
-          <h2 class="h5 text-uppercase mb-4">Billing details</h2>
+          <h2 class="h5 text-uppercase mb-4">Detail penagihan</h2>
           <div class="row">
             <div class="col-lg-8">
               <form action="#">
                 <div class="row gy-3">
                   <div class="col-lg-6">
-                    <label class="form-label text-sm text-uppercase" for="firstName">First name </label>
-                    <input class="form-control form-control-lg" type="text" id="firstName" placeholder="Enter your first name">
+                    <label class="form-label text-sm text-uppercase" for="firstName">Nama Lengkap </label>
+                    <input class="form-control form-control-lg" type="text" id="firstName" placeholder="Masukan nama lengkap">
                   </div>
                   <div class="col-lg-6">
-                    <label class="form-label text-sm text-uppercase" for="lastName">Last name </label>
-                    <input class="form-control form-control-lg" type="text" id="lastName" placeholder="Enter your last name">
+                    <label class="form-label text-sm text-uppercase" for="email">Alamat Email </label>
+                    <input class="form-control form-control-lg" type="email" id="email" placeholder="email@gmail.com">
                   </div>
                   <div class="col-lg-6">
-                    <label class="form-label text-sm text-uppercase" for="email">Email address </label>
-                    <input class="form-control form-control-lg" type="email" id="email" placeholder="e.g. Jason@example.com">
+                    <label class="form-label text-sm text-uppercase" for="phone">Nomor HP </label>
+                    <input class="form-control form-control-lg" type="tel" id="phone" placeholder="085873629835">
                   </div>
                   <div class="col-lg-6">
-                    <label class="form-label text-sm text-uppercase" for="phone">Phone number </label>
-                    <input class="form-control form-control-lg" type="tel" id="phone" placeholder="e.g. +02 245354745">
-                  </div>
-                  <div class="col-lg-6">
-                    <label class="form-label text-sm text-uppercase" for="company">Company name (optional) </label>
-                    <input class="form-control form-control-lg" type="text" id="company" placeholder="Your company name">
+                    <label class="form-label text-sm text-uppercase" for="company">Nama Perusahaan (optional) </label>
+                    <input class="form-control form-control-lg" type="text" id="company" placeholder="Nama Perusahaan">
                   </div>
                   <div class="col-lg-6 form-group">
-                    <label class="form-label text-sm text-uppercase" for="country">Country</label>
+                    <label class="form-label text-sm text-uppercase" for="country">Negara</label>
                     <select class="country" id="country" data-customclass="form-control form-control-lg rounded-0">
-                      <option value>Choose your country</option>
+                      <option value>Pilih Negara</option>
                     </select>
                   </div>
                   <div class="col-lg-12">
-                    <label class="form-label text-sm text-uppercase" for="address">Address line 1 </label>
-                    <input class="form-control form-control-lg" type="text" id="address" placeholder="House number and street name">
-                  </div>
-                  <div class="col-lg-12">
-                    <label class="form-label text-sm text-uppercase" for="addressalt">Address line 2 </label>
-                    <input class="form-control form-control-lg" type="text" id="addressalt" placeholder="Apartment, Suite, Unit, etc (optional)">
+                    <label class="form-label text-sm text-uppercase" for="address">Alamat</label>
+                    <input class="form-control form-control-lg" type="text" id="address" placeholder="Alamat lengkap">
                   </div>
                   <div class="col-lg-6">
-                    <label class="form-label text-sm text-uppercase" for="city">Town/City </label>
+                    <label class="form-label text-sm text-uppercase" for="city">Kota </label>
                     <input class="form-control form-control-lg" type="text" id="city">
                   </div>
                   <div class="col-lg-6">
-                    <label class="form-label text-sm text-uppercase" for="state">State/County </label>
+                    <label class="form-label text-sm text-uppercase" for="state">Negara</label>
                     <input class="form-control form-control-lg" type="text" id="state">
                   </div>
-                  <div class="col-lg-6">
-                    <button class="btn btn-link text-dark p-0 shadow-0" type="button" data-bs-toggle="collapse" data-bs-target="#alternateAddress">
-                      <div class="form-check">
-                        <input class="form-check-input" id="alternateAddressCheckbox" type="checkbox">
-                        <label class="form-check-label" for="alternateAddressCheckbox">Alternate billing address</label>
-                      </div>
-                    </button>
-                  </div>
-                  <div class="collapse" id="alternateAddress">
-                    <div class="row gy-3">
-                      <div class="col-12 mt-4">
-                        <h2 class="h4 text-uppercase mb-4">Alternative billing details</h2>
-                      </div>
-                      <div class="col-lg-6">
-                        <label class="form-label text-sm text-uppercase" for="firstName2">First name </label>
-                        <input class="form-control form-control-lg" type="text" id="firstName2" placeholder="Enter your first name">
-                      </div>
-                      <div class="col-lg-6">
-                        <label class="form-label text-sm text-uppercase" for="lastName2">Last name </label>
-                        <input class="form-control form-control-lg" type="text" id="lastName2" placeholder="Enter your last name">
-                      </div>
-                      <div class="col-lg-6">
-                        <label class="form-label text-sm text-uppercase" for="email2">Email address </label>
-                        <input class="form-control form-control-lg" type="email" id="email2" placeholder="e.g. Jason@example.com">
-                      </div>
-                      <div class="col-lg-6">
-                        <label class="form-label text-sm text-uppercase" for="phone2">Phone number </label>
-                        <input class="form-control form-control-lg" type="tel" id="phone2" placeholder="e.g. +02 245354745">
-                      </div>
-                      <div class="col-lg-6">
-                        <label class="form-label text-sm text-uppercase" for="company2">Company name (optional) </label>
-                        <input class="form-control form-control-lg" type="text" id="company2" placeholder="Your company name">
-                      </div>
-                      <div class="col-lg-6 form-group">
-                        <label class="form-label text-sm text-uppercase" for="countryAlt">Country</label>
-                        <select class="country" id="countryAlt" data-customclass="form-control form-control-lg rounded-0">
-                          <option value>Choose your country</option>
-                        </select>
-                      </div>
-                      <div class="col-lg-12">
-                        <label class="form-label text-sm text-uppercase" for="address2">Address line 1 </label>
-                        <input class="form-control form-control-lg" type="text" id="address2" placeholder="House number and street name">
-                      </div>
-                      <div class="col-lg-12">
-                        <label class="form-label text-sm text-uppercase" for="addressalt2">Address line 2 </label>
-                        <input class="form-control form-control-lg" type="text" id="addressalt2" placeholder="Apartment, Suite, Unit, etc (optional)">
-                      </div>
-                      <div class="col-lg-6">
-                        <label class="form-label text-sm text-uppercase" for="city2">Town/City </label>
-                        <input class="form-control form-control-lg" type="text" id="city2">
-                      </div>
-                      <div class="col-lg-6">
-                        <label class="form-label text-sm text-uppercase" for="state2">State/County </label>
-                        <input class="form-control form-control-lg" type="text" id="state2">
-                      </div>
-                    </div>
-                  </div>
                   <div class="col-lg-12 form-group">
-                    <button class="btn btn-dark" type="submit">Place order</button>
+                    <button class="btn btn-dark" type="submit">Pesan</button>
                   </div>
                 </div>
               </form>
@@ -231,13 +166,13 @@
             <div class="col-lg-4">
               <div class="card border-0 rounded-0 p-lg-4 bg-light">
                 <div class="card-body">
-                  <h5 class="text-uppercase mb-4">Your order</h5>
+                  <h5 class="text-uppercase mb-4">Pesanan Anda</h5>
                   <ul class="list-unstyled mb-0">
-                    <li class="d-flex align-items-center justify-content-between"><strong class="small fw-bold">Red digital smartwatch</strong><span class="text-muted small">$250</span></li>
+                    <li class="d-flex align-items-center justify-content-between"><strong class="small fw-bold">Red digital smartwatch</strong><span class="text-muted small">Rp. 150.000</span></li>
                     <li class="border-bottom my-2"></li>
-                    <li class="d-flex align-items-center justify-content-between"><strong class="small fw-bold">Gray Nike running shoes</strong><span class="text-muted small">$351</span></li>
+                    <li class="d-flex align-items-center justify-content-between"><strong class="small fw-bold">Gray Nike running shoes</strong><span class="text-muted small">Rp. 80.000</span></li>
                     <li class="border-bottom my-2"></li>
-                    <li class="d-flex align-items-center justify-content-between"><strong class="text-uppercase small fw-bold">Total</strong><span>$601</span></li>
+                    <li class="d-flex align-items-center justify-content-between"><strong class="text-uppercase small fw-bold">Total</strong><span>Rp. 230.000</span></li>
                   </ul>
                 </div>
               </div>
@@ -249,27 +184,27 @@
         <div class="container py-4">
           <div class="row py-5">
             <div class="col-md-4 mb-3 mb-md-0">
-              <h6 class="text-uppercase mb-3">Customer services</h6>
+              <h6 class="text-uppercase mb-3">Layanan Pelanggan</h6>
               <ul class="list-unstyled mb-0">
-                <li><a class="footer-link" href="#!">Help &amp; Contact Us</a></li>
-                <li><a class="footer-link" href="#!">Returns &amp; Refunds</a></li>
-                <li><a class="footer-link" href="#!">Online Stores</a></li>
-                <li><a class="footer-link" href="#!">Terms &amp; Conditions</a></li>
+                <li><a class="footer-link" href="#!">Bantuan &amp; Kontak Kami</a></li>
+                <li><a class="footer-link" href="#!">Pengembalian Uang</a></li>
+                <li><a class="footer-link" href="#!">Toko Online</a></li>
+                <li><a class="footer-link" href="#!">Syarat &amp; Ketentuan</a></li>
               </ul>
             </div>
             <div class="col-md-4 mb-3 mb-md-0">
-              <h6 class="text-uppercase mb-3">Company</h6>
+              <h6 class="text-uppercase mb-3">Perusahaan</h6>
               <ul class="list-unstyled mb-0">
-                <li><a class="footer-link" href="#!">What We Do</a></li>
-                <li><a class="footer-link" href="#!">Available Services</a></li>
-                <li><a class="footer-link" href="#!">Latest Posts</a></li>
+                <li><a class="footer-link" href="#!">Apa yang Kita Lakukan</a></li>
+                <li><a class="footer-link" href="#!">Layanan yang Tersedia</a></li>
+                <li><a class="footer-link" href="#!">Postingan Terbaru</a></li>
                 <li><a class="footer-link" href="#!">FAQs</a></li>
               </ul>
             </div>
             <div class="col-md-4">
-              <h6 class="text-uppercase mb-3">Social media</h6>
+              <h6 class="text-uppercase mb-3">Media Sosial</h6>
               <ul class="list-unstyled mb-0">
-                <li><a class="footer-link" href="#!">Twitter</a></li>
+                <li><a class="footer-link" href="#!">X</a></li>
                 <li><a class="footer-link" href="#!">Instagram</a></li>
                 <li><a class="footer-link" href="#!">Tumblr</a></li>
                 <li><a class="footer-link" href="#!">Pinterest</a></li>
